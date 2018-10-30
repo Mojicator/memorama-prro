@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Memorama Prru</string>
+    <string name="btnEasy">Facil</string>
+    <string name="btnMedium">Normal</string>
+    <string name="btnHard">Dificil</string>
+    <string name="btnHardHard">Perro!</string>
+    <string name="score">Puntuación: 0</string>
+    <string name="lifes">Vidas: 0</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="salir">Salir</string>
+</resources>

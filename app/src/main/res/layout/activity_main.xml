@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_main"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnEasy"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnEasy"
+            android:layout_marginTop="180dp"/>
+        <Button
+            android:id="@+id/btnMedium"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnMedium"/>
+        <Button
+            android:id="@+id/btnHard"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnHard"/>
+        <Button
+            android:id="@+id/btnPerro"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnHardHard"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
